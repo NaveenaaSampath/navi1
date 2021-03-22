@@ -1,0 +1,125 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2578
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica-Bold;\f1\fswiss\fcharset0 Helvetica;\f2\fnil\fcharset0 HelveticaNeue-Medium;
+\f3\fnil\fcharset0 HelveticaNeue;\f4\fnil\fcharset0 HelveticaNeue-Italic;}
+{\colortbl;\red255\green255\blue255;\red183\green177\blue7;\red0\green0\blue0;\red255\green255\blue255;
+\red39\green170\blue96;\red252\green189\blue9;\red255\green255\blue255;\red199\green141\blue7;\red25\green28\blue31;
+\red11\green97\blue255;}
+{\*\expandedcolortbl;;\cssrgb\c76768\c73671\c0;\cssrgb\c0\c0\c0\c80000;\cssrgb\c100000\c100000\c100000;
+\cssrgb\c16471\c70980\c45098\c14902;\cssrgb\c99477\c78089\c0;\csgray\c100000;\cssrgb\c82496\c61700\c0;\cssrgb\c12941\c14510\c16078;
+\cssrgb\c0\c48235\c100000;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0\b\fs28 \cf0 \cb2 What is Jupyter notebook?
+\f1\b0\fs24 \cb1 \
+\pard\pardeftab720\partightenfactor0
+
+\fs28 \cf3 \cb4 \expnd0\expndtw0\kerning0
+A Jupyter notebook is a browser-based application that allows you to create and share documents \cb5 that contain code, equations, visualizations, narrative text links, and so much more. \cb4 It can be likened to a scientist\'92s lab notebook where a scientist records all steps to perform their experiments and record the results so it can be reproduced in the future.\
+\
+1. It allows data scientist to record data experiements , results and used repeatedly. \
+2. A Jupyter Notebook file allows Data Scientists to combine descriptive text, code blocks, and code output in a single file. \
+3. When you run the code, it generates the outputs, including plots and tables, within the notebook file. \cb5 And you can then export the notebook to a PDF or HTML file that can be then be shared \cb4 with anyone.\
+4. Jupyter Notebooks originated as \'93iPython\'94 originally developed for the Python Programming language. As it came to support additional languages it was renamed Jupyter which stands for: Julia - Python - R.\
+\
+
+\f0\b JUPYTER LAB:
+\f1\b0 \
+1. Interactive environment for jupyter notebooks.\
+2. Allows real time editing\
+3. Compatible with several file formats such as csv, pdf, json, Vega and more\
+4. It is opensource\
+\
+
+\f0\b Using Jupiter lab:
+\f1\b0 \
+1. Jupyter notebooks can be used with a cloud-based service like IBM and Google Collab. \
+2. They do not require you to install anything on your local machine; they give you access to the Jupyter Notebook environment. \
+3. They do allow you to import and export notebooks using the standard IPython Notebook file format. \
+4. \cb5 They support the Python language and other languages as well. \
+5. \cb4 Jupyter notebooks can be
+\f0\b  installed via the command line using the pip install function
+\f1\b0 . \
+6. Jupyter notebooks can also be downloaded locally to your laptop through the Anaconda Platform from Anaconda.com. \
+7. Anaconda is one of the popular distributions which includes Jupyter and Jupyterlab. \
+\
+
+\f0\b \cb6 Getting started with Jupyter:\
+\cb7 \
+See the downloaded video\
+\
+Jupyter kernels:\
+
+\f1\b0 \cb5 1. A notebook kernel is a computational engine that executes the code contained in a Notebook \cb4 file. \
+\
+2. Jupyter Kernels for many other languages exist and we will explore some of the ones that are relevant in Data Science. \
+\
+3. When you open a Notebook document, the associated kernel is automatically launched. When the notebook is executed, the kernel performs the computation and produces the results. Depending on the environment you are using, you may need to install other notebook languages in your Jupyter environment. \
+\
+4. In the skills network lab environment, a few of the languages have been pre-installed for you. \
+\
+5. The first one is the Python kernel.When you launch a notebook, pick the language you are interested in for your Data Science project. \
+\
+6. The Python kernel allows you to run Python cells. You can run the Python script to produce results. \
+\
+7. On the top right corner, it tells you what kind of kernel it is, in this case it is a Python kernel. \
+\
+8. You can also run other kernels, either by choosing the preferred kernel on the launch page or by clicking the top right to switch the kernel to the preferred kernel and picking the kernel from the drop-down menu.\
+\
+9. If you are running it on your local machine, you may need to manually install the languages through your command line interface. \
+\
+10. The skills network virtual Jupyter environment has Apache, Julia, R and Swift. Depending on your preference and type of project you can use any of the languages that the Jupyter Notebook supports to execute your code. \
+\
+\cb8 JUPYTER ARCHITECTURE:\cb4 \
+\cb5 1. Jupyter implements a two-process model, with a kernel and a client. \
+\
+2. \cb4 The client is the interface offering the user the ability to send the code to a kernel. \
+\
+3. The kernel executes the code and returns the result to the client for display. \
+\
+4. The client is the browser when using a Jupyter notebook. \
+\
+5. Jupyter notebooks represent your code, metadata, contents, and outputs. \
+\
+6. When saved it uses a dot I Pi NB (.ipynb) extension and a JSON structure. When you, the user, saves it, it is sent from your browser to the Notebook server which saves the notebook file on a disk as a JSON file with a dot I PI NB (.ipynb) extension. \
+\
+7. The Notebook server is responsible for saving and loading the notebooks. The kernel gets sent the cells of code when the user runs them. \
+\
+8. Jupyter also has an architecture of how it converts files to other formats. It uses a tool called NB convert. \
+\
+For example, if we want to convert a Notebook file into an HTML file, it will go through the following: \
+1. The Notebook is modified by a preprocessor, an exporter converts the notebook to the new file format, and a postprocessor will work on the file produced by exporting it.\
+2.  After conversion, when you give the URL of the HTML file, it first fetches the notebook, converts it HTML, and displays the file to you in a HTML file. You should now be familiar with: The two-process model implementation of Jupyter, how Notebook servers communicate with kernels and clients, and the architectural design of how notebook files are converted to other files.\
+\
+
+\f0\b\fs36 JUPYTER CODING REFERENCE\
+\
+\pard\pardeftab720\partightenfactor0
+
+\f2\b0\fs56 \cf9 \cb1 Jupyter Notebooks on the Internet\
+\pard\pardeftab720\partightenfactor0
+
+\f3\fs32 \cf9 There are thousands of interesting jupyter notebooks available on the internet for you to learn from. One of the best sources is: {\field{\*\fldinst{HYPERLINK "https://github.com/jupyter/jupyter/wiki/A-gallery-of-interesting-Jupyter-Notebooks"}}{\fldrslt \cf10 https://github.com/jupyter/jupyter/wiki/A-gallery-of-interesting-Jupyter-Notebooks}}\cf10 \
+\
+\cf9 \
+It is important to notice that you can download such notebooks to your local computer or import them to a cloud based notebook tool so that you can rerun, modify and follow along what's explained in the notebook.\
+\
+\
+Very often jupyter notebook are already shared in a rendered view. This means, that you can look at them as if they were running locally on you machine. But sometimes, folks only share a link to the jupyter file (which you can make out by the *.ipynb extention). In this case you can just grab the URL to that file and past it to the NB-Viewer => {\field{\*\fldinst{HYPERLINK "https://nbviewer.jupyter.org/?cm_mmc=Email_Newsletter-_-Developer_Ed%2BTech-_-WW_WW-_-SkillsNetwork-Courses-IBMDeveloperSkillsNetwork-DS0105EN-SkillsNetwork-20083975&cm_mmca1=000026UJ&cm_mmca2=10006555&cm_mmca3=M12345678&cvosrc=email.Newsletter.M12345678&cvo_campaign=000026UJ"}}{\fldrslt \cf10 https://nbviewer.jupyter.org/}}\cf10 \
+\
+\cf9 \
+The list above gives you a very nice start with a huge collection of materials to explore. Therefore it\'92s maybe more useful to give you some pointers to interesting notebooks. As we have covered some toy examples with toy data in the labs, let me just point to some work which uses these data and goes further down the road of data science. In addition, as we\'92ve covered the different tasks in data science we\'92ll also provide an exemplar notebook for each of those.\
+First you start with exploratory data analysis, so this notebook is highly recommended to have a look at: {\field{\*\fldinst{HYPERLINK "https://nbviewer.jupyter.org/github/Tanu-N-Prabhu/Python/blob/master/Exploratory_data_Analysis.ipynb?cm_mmc=Email_Newsletter-_-Developer_Ed%2BTech-_-WW_WW-_-SkillsNetwork-Courses-IBMDeveloperSkillsNetwork-DS0105EN-SkillsNetwork-20083975&cm_mmca1=000026UJ&cm_mmca2=10006555&cm_mmca3=M12345678&cvosrc=email.Newsletter.M12345678&cvo_campaign=000026UJ"}}{\fldrslt \cf10 https://nbviewer.jupyter.org/github/Tanu-N-Prabhu/Python/blob/master/Exploratory_data_Analysis.ipynb}}\cf10 \
+\
+\cf9 \
+For data integration / cleansing at a smaller scale, the python library 
+\f4\i pandas
+\f3\i0  is often used. Please have a look at this notebook: {\field{\*\fldinst{HYPERLINK "https://towardsdatascience.com/data-cleaning-with-python-using-pandas-library-c6f4a68ea8eb?cm_mmc=Email_Newsletter-_-Developer_Ed%2BTech-_-WW_WW-_-SkillsNetwork-Courses-IBMDeveloperSkillsNetwork-DS0105EN-SkillsNetwork-20083975&cm_mmca1=000026UJ&cm_mmca2=10006555&cm_mmca3=M12345678&cvosrc=email.Newsletter.M12345678&cvo_campaign=000026UJ"}}{\fldrslt \cf10 https://towardsdatascience.com/data-cleaning-with-python-using-pandas-library-c6f4a68ea8eb}}\cf10 \
+\
+\cf9 \
+If you want to already experience what clustering is, have a look at this: {\field{\*\fldinst{HYPERLINK "https://nbviewer.jupyter.org/github/temporaer/tutorial_ml_gkbionics/blob/master/2%20-%20KMeans.ipynb?cm_mmc=Email_Newsletter-_-Developer_Ed%2BTech-_-WW_WW-_-SkillsNetwork-Courses-IBMDeveloperSkillsNetwork-DS0105EN-SkillsNetwork-20083975&cm_mmca1=000026UJ&cm_mmca2=10006555&cm_mmca3=M12345678&cvosrc=email.Newsletter.M12345678&cvo_campaign=000026UJ"}}{\fldrslt \cf10 https://nbviewer.jupyter.org/github/temporaer/tutorial_ml_gkbionics/blob/master/2%20-%20KMeans.ipynb}}\cf10 \
+\
+\cf9 \
+And finally, if you want to go for a more in-depth notebook on the 
+\f4\i iris
+\f3\i0  dataset have a look here: {\field{\*\fldinst{HYPERLINK "https://www.kaggle.com/lalitharajesh/iris-dataset-exploratory-data-analysis?cm_mmc=Email_Newsletter-_-Developer_Ed%2BTech-_-WW_WW-_-SkillsNetwork-Courses-IBMDeveloperSkillsNetwork-DS0105EN-SkillsNetwork-20083975&cm_mmca1=000026UJ&cm_mmca2=10006555&cm_mmca3=M12345678&cvosrc=email.Newsletter.M12345678&cvo_campaign=000026UJ"}}{\fldrslt \cf10 https://www.kaggle.com/lalitharajesh/iris-dataset-exploratory-data-analysis}}}
